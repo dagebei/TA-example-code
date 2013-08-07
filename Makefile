@@ -11,7 +11,7 @@ cov_all: cov_calc1 cov_calc2
 all: calc1 calc2
 
 run: calc1 calc2
-  echo 123 456 + 2 / = | ./calc1
+	echo 123 456 + 2 / = | ./calc1
 	echo 123 + 456 / 2   | ./calc2
 
 cov_calc1: calc1.cpp
